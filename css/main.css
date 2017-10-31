@@ -1,3 +1,95 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body{
+  background-color: yellow;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  outline: 1px solid red;
+}
+.contenedor{
+  width: 100%;
+  margin:0 auto;
+  overflow: hidden;
+  display: inline-block;
+  outline: 1px solid blue;
+}
+
+header {
+    background-color: rgba(24, 188, 156, 0);
+    width: 100%;
+    height: 108px;
+    position: fixed;
+    z-index: 2;
+    outline: 1px solid yellow;
+  }
+
+  /* header */
+
+
+    .title {
+      float: left;
+      width: 50px;
+      margin: 53px 0 50px 10%;
+      transform: translateY(-50%);
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  nav {
+    display: inline-block;
+    margin: 0 auto;
+    width: 40%;
+    position: relative;
+    outline: 1px solid pink;
+  }
+
+  nav a:hover {
+    color: #18bc9c;
+  }
+
+  a {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+
+  nav {
+    float: right;
+    margin: 53px 115px 50px 0;
+    transform: translateY(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 13px;
+  }
+.white-box{
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  outline: 1px solid pink;
+  background-color: white;
+  top: 30%;
+  left: 50%;
+}
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+}
